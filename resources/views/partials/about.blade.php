@@ -1,6 +1,3 @@
-@extends('layout')
-
-@section('content')
 <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
     <div class="container">
         <div class="row">
@@ -11,7 +8,7 @@
                     <h1 class="animated animated-text">
                         <span class="mr-2">Hey folks, I'm</span>
                             <div class="animated-info">
-                                <span class="animated-item">Marvel Sann</span>
+                                <span class="animated-item">Cesi Motta</span>
                                 <span class="animated-item">Web Designer</span>
                                 <span class="animated-item">UI Specialist</span>
                             </div>
@@ -35,6 +32,4 @@
         </div>
     </div>
 </section>
-
-@stop
 

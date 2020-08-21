@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Mail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,26 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('about');
-})->name('about');
-
-Route::get('/resume', function () {
-    return view('resume');
-})->name('resume');
-
-Route::get('/project', function () {
-    return view('project');
-})->name('project');
-
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');
+    return view('index');
+})->name('home');
 
 Route::post('/messages', function () {
     $data = request()->all();
     Mail::send("emails.message", $data, function($message) use ($data) {
         $message->from($data['email'], $data['name'])
-        ->to('rafatest89@gmail.com', 'RafaTest')
+        ->to('rafagf89@gmail.com', 'Rafael')
         ->subject($data['subject']);
     });
 

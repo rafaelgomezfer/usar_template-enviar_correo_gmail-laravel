@@ -29,7 +29,7 @@ https://www.tooplate.com/view/2115-marvel
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="{{route('about')}}"><i class='uil uil-user'></i> Marvel</a>
+            <a class="navbar-brand" href="{{route('home')}}"><i class='uil uil-user'></i> Cesi</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -41,16 +41,16 @@ https://www.tooplate.com/view/2115-marvel
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                    <a href="{{route('about')}}" class="nav-link"><span data-hover="About">About</span></a>
+                    <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{route('project')}}" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{route('resume')}}" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{route('contact')}}" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
                     </li>
                 </ul>
 

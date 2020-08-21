@@ -175,7 +175,7 @@ b, strong {
   transition: transform 200ms linear;
 }
 .navbar[class*="-unpinned"] {
-  transform: translate(0, -150%);
+  transform: translate(0, 0);/* para ocultar: 0, -150% */
 }
 .navbar[class*="-pinned"] {
   transform: translate(0, 0);

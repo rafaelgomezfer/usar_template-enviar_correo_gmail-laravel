@@ -1,6 +1,3 @@
-@extends('layout')
-
-@section('content')
 <!-- PROJECTS -->
 <section class="project py-5" id="project">
     <div class="container">
@@ -48,4 +45,3 @@
             </div>
     </div>
 </section>
-@stop
